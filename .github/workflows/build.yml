@@ -15,7 +15,7 @@ jobs:
       - name: Instalar Buildozer
         run: |
           sudo apt update
-          sudo apt install -y zip unzip build-essential libffi-dev
+          sudo apt install -y zip unzip build-essential libffi-dev libssl-dev
           pip install --upgrade cython==0.29.37
           pip install --upgrade buildozer
 
