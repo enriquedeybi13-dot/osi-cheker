@@ -26,5 +26,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: APK-Listo
-          path: bin/
-          *.apk
+          path: bin/*.apk
